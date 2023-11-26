@@ -1,0 +1,12 @@
+.ProductsList > a {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    transform: scale(1.5);
+}
+
+.ProductsList .Up{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}

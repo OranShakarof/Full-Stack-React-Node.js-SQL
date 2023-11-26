@@ -1,0 +1,16 @@
+html, body, #root {
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(to right, #ffefba, #ffffff);}
+
+a {
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+

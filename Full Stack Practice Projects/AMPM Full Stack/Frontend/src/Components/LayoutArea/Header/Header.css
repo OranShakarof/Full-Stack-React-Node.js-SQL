@@ -1,0 +1,7 @@
+.Header > img {
+    margin-top: 5px;
+    border-radius: 10px 10px;
+    box-shadow: 3px 3px 3px 3px;
+    opacity: 0.9;
+}
+

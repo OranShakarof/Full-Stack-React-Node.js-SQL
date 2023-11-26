@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "09980f1e-4e87-49ed-8ca2-1db922d42673",
+		"name": "Furniture REST API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28624935"
+	},
+	"item": [
+		{
+			"name": "Get All Furniture",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/furniture",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"furniture"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Furniture Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"typeId\": 4,\r\n    \"dimensions\": \"200 x 100 x 50\",\r\n    \"color\": \"White\",\r\n    \"price\": 800\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/furniture",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"furniture"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

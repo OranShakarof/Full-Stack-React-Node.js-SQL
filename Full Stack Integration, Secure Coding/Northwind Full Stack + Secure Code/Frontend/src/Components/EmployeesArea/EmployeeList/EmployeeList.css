@@ -1,0 +1,10 @@
+.EmployeeList > table,th,td {
+    margin: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.EmployeeList img {
+    width: 50px;
+    vertical-align: middle;   
+}

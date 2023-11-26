@@ -1,0 +1,11 @@
+html, body, #root {
+    height: 100%;
+    text-align: center;
+    background-image: url("./Assets/Images/home2.avif");
+    color: white;
+}
+
+a {
+    color: lightblue;
+}
+

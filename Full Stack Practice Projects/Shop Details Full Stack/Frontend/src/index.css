@@ -1,0 +1,11 @@
+html, body, #root {
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(90deg,#ADA996,#F2F2F2,#DBDBDB,#EAEAEA);
+}
+
+
+a:hover{
+    color: blue;
+}
+
